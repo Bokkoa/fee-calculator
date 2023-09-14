@@ -1,0 +1,23 @@
+{
+  "name": "fee-calculator",
+  "version": "1.0.0",
+  "description": "A fee calculator.",
+  "author": "Felipe Cruz",
+  "type": "module",
+  "scripts": {
+    "start": "node src/start.js",
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "jest": "^29.7.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.19",
+    "@babel/plugin-syntax-import-assertions": "^7.22.5",
+    "@babel/preset-env": "^7.22.15",
+    "babel-jest": "^29.7.0"
+  }
+}
